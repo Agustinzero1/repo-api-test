@@ -1,3 +1,5 @@
+//este documento js tiene las funciones necesarias para conectarse a la api
+
 const api_key = "e682c9b0e1029e31f1c62d30e246fa82";
 const QUERY_DATA = "&query=montevideo&units=m";
 const LIST_URL = "http://api.weatherstack.com/current?access_key=" + api_key + QUERY_DATA;
