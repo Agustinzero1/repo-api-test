@@ -1,0 +1,146 @@
+body{
+    color: white;
+    font-family: "Open Sans","Gill Sans MT","Gill Sans",Corbel,Arial,sans-serif;
+    font-size: 14px;
+}
+
+#Panel_Resultados{
+    position: relative;
+    left: 50%;
+    top: 50%;
+
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(96,128,148);
+    border-radius: 15px;
+
+    background-color: rgba(52, 120, 156, 0.384);
+    
+    width: 500px;
+    height: 155px;
+
+    transform: translate(-50%, -50%);
+
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 0px 30px;
+
+    backdrop-filter: blur(4px);
+
+}
+
+#Fondo{
+    position: fixed;
+
+    background: url(https://weatherstack.com/site_images/mountains.svg),linear-gradient(135deg,#1f4e69 0,#164058 100%);
+    background-size: cover;
+    background-position: center;
+
+    height: 100%;
+    width: 100%;
+
+    left: 0px;
+    top: 0px;
+    padding: 10px;
+
+}
+
+#Bloque_Location{
+    display: flex;
+    width: 100%;
+
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.Location_Text{
+
+    padding: 2px;
+    padding-top: 10px;
+    font-weight: 600;
+}
+
+#Bloque_Del_Medio{
+    display: flex;
+    height: 350px;
+}
+
+.bloque_medio{
+
+    width: 33%;
+    height: 35%;
+
+    /* border-style: solid;
+    border-width: 1px;
+    border-color: rgb(96,128,148); */
+}
+
+#Bloque_Temp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Text_Temp{
+    text-align: center;
+    font-size: 50px;
+}
+
+#Bloque_Data{
+    display: flex;
+    flex-direction: column;
+
+    align-items: left;
+    justify-content: center;
+}
+
+.bloque_de_datos{
+    padding: 1px;
+    padding-left: 10px;
+    font-weight: 400;
+
+    font-size: 15px;
+}
+
+#Bloque_Img{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+}
+
+#curren_weather_img{
+    width: 60px;
+    height: 60px;
+
+    margin-bottom: 5px;
+
+    border-radius: 15px;
+
+    box-shadow: rgba(255, 255, 255, 0.5) 1px 1px 20px;
+
+}
+
+#current_weather_desc{
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.barra{
+    position: relative;
+    
+    width: 90%;
+    height: 1px;
+
+    background-color: rgba(255, 255, 255, 0.5);
+
+    left: 50%;
+
+    transform: translate(-50%);
+    margin-top: 6px;
+}
+
+.bloqueDeTesteo{
+    color: red;
+}
